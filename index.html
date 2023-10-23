@@ -1,16 +1,130 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>introduction to computer science</title>
-<style>
-</style>
+    <meta charset="UTF-8">
+    <title>Enter Site Title</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #5a0099, #ff00ff);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #header {
+            text-align: center;
+            background-color: #5a0099;
+            color: #fff;
+            padding: 20px;
+        }
+        #slogan {
+            text-align: center;
+            color: #fff;
+        }
+        #menu-buttons {
+            text-align: center;
+            padding: 10px;
+        }
+        #menu-buttons a {
+            margin: 10px;
+            padding: 5px 10px;
+            background-color: #5a0099;
+            color: #fff;
+            text-decoration: none;
+        }
+        #menu-buttons a:hover {
+            background-color: #800080;
+        }
+        #content {
+            display: flex;
+        }
+        #menu {
+            flex: 30%;
+            padding: 20px;
+            background-color: #fff;
+        }
+        #main-content {
+            flex: 70%;
+            padding: 20px;
+            background-color: #fff;
+        }
+        .block {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        #footer {
+            text-align: center;
+            background-color: #5a0099;
+            color: #fff;
+            padding: 10px;
+        }
+        .left-content {
+            float: left;
+            width: 40%;
+            padding: 10px;
+        }
+        .right-content {
+            float: right;
+            width: 40%;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-<header>
-<h1>Enter the set</h1>
-<p>enter the slogan</p>
-</header>
-
-
+    <div id="header">
+        <h1>Enter Site Title</h1>
+    </div>
+    <div id="slogan">
+        <p>Enter Site Slogan</p>
+    </div>
+    <div id="menu-buttons">
+        <a href="#">Home</a>
+        <a href="#">New Page</a>
+        <a href="#">New Page 2</a>
+        <a href="#">New Page 3</a>
+        <a href="#">New Page 4</a>
+        <a href="#">New Page 5</a>
+    </div>
+    <div id="content">
+        <div id="menu">
+            <div class="block">
+                <h2>Main Menu</h2>
+                <ul>
+                    <li>Menu Item 1</li>
+                    <li>Menu Item 2</li>
+                    <li>Menu Item 3</li>
+                    <li>Menu Item 4</li>
+                    <li>Menu Item 5</li>
+                    <li>Menu Item 6</li>
+                    <li>Menu Item 7</li>
+                    <li>Menu Item 8</li>
+                </ul>
+            </div>
+            <div class="block">
+                <h2>Block</h2>
+                <p>Enter Block content here...</p>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            </div>
+        </div>
+        <div id="main-content">
+            <div class="block">
+                <h2>Gallery</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor...</p>
+            </div>
+            <div class="left-content">
+                <h2>Subscription</h2>
+                <p>Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi...</p>
+                <button>Read more</button>
+            </div>
+            <div class="right-content">
+                <h2>Other Service</h2>
+                <p>Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi...</p>
+                <button>Read more</button>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        Copyright © 2014. Design by htmltemplates.net
+    </div>
 </body>
 </html>
